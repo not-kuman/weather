@@ -19,8 +19,6 @@
       overflow-x: hidden;
       color: #00ff41;
     }
-
-    /* Cyberpunk grid background */
     body::before {
       content: '';
       position: absolute;
@@ -35,7 +33,6 @@
       animation: gridMove 20s linear infinite;
       z-index: -1;
     }
-
     @keyframes gridMove {
       0% { transform: translate(0, 0); }
       100% { transform: translate(50px, 50px); }
@@ -390,11 +387,9 @@
         padding: 2rem;
         margin: 1rem;
       }
-      
       h1 {
         font-size: 1.5rem;
       }
-      
       .temperature {
         font-size: 2.8rem;
       }
