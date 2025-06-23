@@ -9,8 +9,7 @@
 
     body {
       font-family: 'Orbitron', monospace;
-      background: url('https://images.ctfassets.net/s600jj41gsex/7hBKWR77CFOWOGuHZyEI5U/b64c710d8c7f77fa6fe778b145c00d88/Gradient_sky.jpg?w=768&q=80&fit=scale');
-  
+      background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
       min-height: 100vh;
       display: flex;
       justify-content: center;
