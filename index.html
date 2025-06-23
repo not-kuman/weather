@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html lang="id">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>NEON WEATHER TERMINAL</title>
+
+<link href="style.css" rel="stylesheet"/></head>
+<body>
+<div class="particles">
+<div class="particle" style="left: 10%; animation-delay: 0s;"></div>
+<div class="particle" style="left: 20%; animation-delay: -2s;"></div>
+<div class="particle" style="left: 30%; animation-delay: -4s;"></div>
+<div class="particle" style="left: 40%; animation-delay: -6s;"></div>
+<div class="particle" style="left: 50%; animation-delay: -8s;"></div>
+<div class="particle" style="left: 60%; animation-delay: -10s;"></div>
+<div class="particle" style="left: 70%; animation-delay: -12s;"></div>
+<div class="particle" style="left: 80%; animation-delay: -14s;"></div>
+<div class="particle" style="left: 90%; animation-delay: -16s;"></div>
+</div>
+<div class="weather-terminal">
+<div class="terminal-header">
+<h1>⚡ WEATHER.EXE</h1>
+<div class="status-lights">
+<div class="status-light red"></div>
+<div class="status-light yellow"></div>
+<div class="status-light green"></div>
+</div>
+</div>
+<form id="weatherForm">
+<div class="search-container">
+<input id="cityInput" placeholder="ENTER LOCATION_NAME..." required="" type="text"/>
+<button type="submit">🔍 SCAN WEATHER DATA</button>
+</div>
+</form>
+<div id="weatherResult"></div>
+<div class="terminal-footer">
+      [SYSTEM STATUS: ONLINE] | [CONNECTION: SECURED]
+    </div>
+</div>
+
+<script src="script.js"></script></body>
+</html>
